@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.header {
+    background-image: url(../img/night-city.jpg);
+    background-position: bottom;
+    background-size: cover;
+    padding: 100px 0 100px 0;
+}
+
+.header-title,
+.header-desc {
+    color: rgb(255, 238, 3);
+    text-shadow: 0 5px 10px rgb(7, 7, 7);
+}
+
+.header-desc {
+    font-size: 21px;
+}
+
+.bond-street-img {
+    background-image: url(../img/bond-street.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .bond-street-img {
+        display: none;
+    }
+}
+
+.cards img {
+    width: 100%;
+}
+
+ul li {
+    list-style: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.footer {
+    height: 150px;
+    background-color: rgb(73, 73, 73);
+    padding: 15px;
+}
